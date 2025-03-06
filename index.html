@@ -9,7 +9,7 @@
     <meta name="robots" content="index, follow">
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Arial', sans-serif;
             text-align: center;
             margin: 0;
             padding: 0;
@@ -17,26 +17,28 @@
             color: #333;
         }
         header {
-            background-color: #222;
+            background-color: #007bff;
             color: white;
             padding: 20px;
-            font-size: 28px;
+            font-size: 32px;
             font-weight: bold;
+            text-transform: uppercase;
+            box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
         }
         .container {
             width: 90%;
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 20px;
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 30px;
             background: white;
             border-radius: 10px;
-            box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+            box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
         }
         .button {
             display: inline-block;
-            padding: 12px 25px;
-            margin: 10px;
-            font-size: 18px;
+            padding: 15px 30px;
+            margin: 20px;
+            font-size: 20px;
             color: white;
             background: #007bff;
             text-decoration: none;
@@ -49,29 +51,37 @@
         ul {
             list-style: none;
             padding: 0;
+            font-size: 20px;
         }
         li {
-            font-size: 18px;
-            margin: 10px 0;
+            margin: 15px 0;
         }
         footer {
-            margin-top: 30px;
-            padding: 15px;
-            background: #222;
+            margin-top: 40px;
+            padding: 20px;
+            background: #007bff;
             color: white;
-            font-size: 16px;
+            font-size: 18px;
+            text-transform: uppercase;
+        }
+        .about {
+            background: #f8f9fa;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
         }
     </style>
 </head>
 <body>
     <header>
-        Life Phone - העתיד של הטכנולוגיה המינימליסטית
+        Life Phone - העתיד של טכנולוגיה מינימליסטית
     </header>
     <div class="container">
         <h1>ברוכים הבאים ל-Life Phone</h1>
         <p>טלפון חכם ללא אפליקציות, מופעל על ידי AI בלבד, עם מסך E-Ink לנוחות מירבית.</p>
         <a href="#features" class="button">למד עוד</a>
-        <a href="#subscribe" class="button">הצטרף לרשימת המתנה</a>
+        <a href="#about" class="button">אודותינו</a>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSeS9nG9mCfT65VsnI7yvnoQwVqB5kd60OxQL2LYdsAIfKYB-w/viewform?usp=header" class="button">הרשמה</a>
     </div>
 
     <div class="container" id="features">
@@ -81,16 +91,15 @@
             <li>🤖 ממשק חכם מבוסס AI - ללא אפליקציות</li>
             <li>🔋 חיי סוללה ארוכים ושימוש ממוקד</li>
             <li>🔒 פרטיות מקסימלית - ללא פרסומות, ללא מעקבים</li>
+            <li>🎨 עיצוב מינימליסטי ונוח לשימוש</li>
         </ul>
     </div>
 
-    <div class="container" id="subscribe">
-        <h2>📩 הצטרפו לרשימת ההמתנה</h2>
-        <p>היו הראשונים לדעת כאשר Life Phone זמין!</p>
-     <form action="https://docs.google.com/forms/d/e/1FAIpQLSeS9nG9mCfT65VsnI7yvnoQwVqB5kd60OxQL2LYdsAIfKYB-w/viewform?usp=header" method="GET" target="_blank">
-    <input type="email" placeholder="הכנס את האימייל שלך" required>
-    <button type="submit" class="button">הרשמה</button>
-</form>
+    <div class="container about" id="about">
+        <h2>אודותינו</h2>
+        <p>Life Phone הוא החזון שלנו לטלפון חכם שמחזיר את השליטה לידיים שלכם. ללא אפליקציות מסיחות דעת, ללא מעקב וללא פרסומות. 
+        מכשיר שמאפשר לכם ליהנות מהטכנולוגיה מבלי להיות תלויים בה.</p>
+        <p>המשימה שלנו היא ליצור חוויית שימוש חלקה, פרטית ויעילה, שמסייעת למשתמשים להתמקד במה שחשוב באמת.</p>
     </div>
 
     <footer>
